@@ -1,4 +1,4 @@
-# Free Code Camp: Relational Databases Project 1 - Celestial Bodies Database
+# Free Code Camp: Relational Database Project 1 - Celestial Bodies Database
 
 ## Celestial Bodies Database
 
@@ -83,3 +83,5 @@ Log into the database using:
 Save a dump of the database using:
 
 `$pg_dump -cC --inserts -U freecodecamp universe > universe.sql`
+
+Instructions for building the project can be found at https://www.freecodecamp.org/learn/relational-database/build-a-celestial-bodies-database-project/build-a-celestial-bodies-database
