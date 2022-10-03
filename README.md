@@ -1,4 +1,4 @@
-# Free Code Camp: Relational Database Project 1 - Celestial Bodies Database
+# Free Code Camp: Relational Database Project 1
 
 ## Celestial Bodies Database
 
