@@ -70,18 +70,20 @@ Note that the database is not complete, particularly the moon table which only c
 
 ### Usage
 
-The database can be interacted with using `psql` in linux.
+The database can be interacted with using `psql` in linux. First start up a PostgreSQL server using:
+
+`$sudo service postgresql start`
 
 Load the database using:
 
-`$psql -U postgres < universe.sql`
+`$psql --dbname=postgres < universe.sql`
 
 Log into the database using:
 
-`$psql --username=freecodecamp --dbname=postgres`
+`$psql --dbname=postgres`
 
 Save a dump of the database using:
 
-`$pg_dump -cC --inserts -U freecodecamp universe > universe.sql`
+`$pg_dump -cC --inserts universe > universe.sql`
 
 Instructions for building the project can be found at https://www.freecodecamp.org/learn/relational-database/build-a-celestial-bodies-database-project/build-a-celestial-bodies-database
